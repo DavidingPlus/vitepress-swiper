@@ -21,7 +21,7 @@ const settings = {
 // noinspection JSUnusedGlobalSymbols
 export default defineConfig({
   srcDir: './',
-  // base: '/path/',
+  base: '/vitepress-swiper/',
   vite: {
     resolve: {
       alias: {
