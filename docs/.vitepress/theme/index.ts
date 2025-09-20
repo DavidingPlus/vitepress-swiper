@@ -1,4 +1,7 @@
+import { h } from 'vue'
+import type { Theme } from 'vitepress'
 import DefaultTheme, { VPBadge } from 'vitepress/theme'
+
 import './custom.css'
 import 'virtual:group-icons.css'
 
@@ -15,10 +18,15 @@ import ExampleLinks from './components/ExampleLinks.vue'
 import CopyButton from '@cssnr/vitepress-plugin-copybutton'
 import '@cssnr/vitepress-plugin-copybutton/style.css'
 
+
 // noinspection JSUnusedGlobalSymbols
 export default {
-    ...DefaultTheme,
-
+    extends: DefaultTheme,
+    Layout: () => {
+        return h(DefaultTheme.Layout, null, {
+            // https://vitepress.dev/guide/extending-default-theme#layout-slots
+        })
+    },
     enhanceApp({ app }) {
         app.component('Badge', VPBadge)
 
@@ -31,4 +39,4 @@ export default {
 
         app.component('CB', CopyButton)
     },
-}
+} satisfies Theme
