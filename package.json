@@ -46,9 +46,6 @@
   ],
   "scripts": {
     "build": "vite build && vue-tsc --declaration --emitDeclarationOnly --outDir dist/types",
-    "docs": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs",
     "get-contributors": "npx get-contributors cssnr/vitepress-swiper -f docs/.vitepress/contributors.json",
     "prettier": "npx prettier --check ."
   },
@@ -64,7 +61,7 @@
     "prettier": "^3.6.2",
     "vite": "^7.1.5",
     "vite-plugin-dts": "^4.5.4",
-    "vitepress": "^1.6.4",
+    "vitepress": "^2.0.0-alpha.6",
     "vitepress-plugin-group-icons": "^1.6.3",
     "vue": "^3.5.21",
     "vue-tsc": "^3.0.7"
