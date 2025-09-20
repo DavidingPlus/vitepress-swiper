@@ -47,7 +47,8 @@
   "scripts": {
     "build": "vite build && vue-tsc --declaration --emitDeclarationOnly --outDir dist/types",
     "get-contributors": "npx get-contributors cssnr/vitepress-swiper -f docs/.vitepress/contributors.json",
-    "prettier": "npx prettier --check ."
+    "prettier": "npx prettier --check .",
+    "test": "jest"
   },
   "peerDependencies": {
     "swiper": ">=11.0.0",
@@ -58,6 +59,7 @@
     "@cssnr/vitepress-plugin-contributors": "^0.0.3",
     "@cssnr/vitepress-plugin-copybutton": "^0.0.2",
     "@vitejs/plugin-vue": "^6.0.1",
+    "jest": "^30.1.3",
     "prettier": "^3.6.2",
     "vite": "^7.1.5",
     "vite-plugin-dts": "^4.5.4",
