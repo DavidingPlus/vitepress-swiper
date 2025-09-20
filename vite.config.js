@@ -2,7 +2,9 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
+
 const name = 'VPSwiper'
+
 
 export default defineConfig({
     plugins: [vue()],
@@ -22,6 +24,13 @@ export default defineConfig({
                     'swiper/vue': 'Swiper',
                     'swiper/modules': 'Swiper',
                 },
+                assetFileNames(chunkInfo) {
+                    let fileName = chunkInfo.name
+                    if (fileName && fileName.endsWith('.css')) {
+                        fileName = 'style.css'
+                    }
+                    return fileName || '[name].[ext]'
+                }
             },
         },
     },
