@@ -15,10 +15,10 @@ You can easily add the source file to your project for full control over the tem
 This method is manual and does not provide updates or support.
 :::
 
-Download or copy the [VPSwiper.vue](https://github.com/cssnr/vitepress-swiper/blob/master/src/VPSwiper.vue)
+Download or copy the [VPSwiper.vue](https://github.com/DavidingPlus/vitepress-swiper/blob/master/src/VPSwiper.vue)
 file to your project.
 
-- Source File: [VPSwiper.vue](https://github.com/cssnr/vitepress-swiper/blob/master/src/VPSwiper.vue)
+- Source File: [VPSwiper.vue](https://github.com/DavidingPlus/vitepress-swiper/blob/master/src/VPSwiper.vue)
 - Target Location: `.vitepress/theme/components/VPSwiper.vue`
 
 Install the dependency, [SwiperJS](https://www.npmjs.com/package/swiper).

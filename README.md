@@ -1,7 +1,7 @@
-[![NPM Downloads](https://img.shields.io/npm/dw/%40cssnr%2Fvitepress-swiper?logo=npm)](https://www.npmjs.com/package/@cssnr/vitepress-swiper)
-[![NPM Version](https://img.shields.io/npm/v/%40cssnr%2Fvitepress-swiper?logo=npm)](https://www.npmjs.com/package/@cssnr/vitepress-swiper)
+[![NPM Downloads](https://img.shields.io/npm/dw/%40cssnr%2Fvitepress-swiper?logo=npm)](https://www.npmjs.com/package/@davidingplus/vitepress-swiper)
+[![NPM Version](https://img.shields.io/npm/v/%40cssnr%2Fvitepress-swiper?logo=npm)](https://www.npmjs.com/package/@davidingplus/vitepress-swiper)
 [![GitHub Release Version](https://img.shields.io/github/v/release/cssnr/vitepress-swiper?logo=github)](https://github.com/cssnr/vitepress-swiper/releases)
-[![NPM Bundle Size](https://img.shields.io/bundlephobia/min/%40cssnr%2Fvitepress-swiper?logo=npm)](https://bundlephobia.com/package/@cssnr/vitepress-swiper)
+[![NPM Bundle Size](https://img.shields.io/bundlephobia/min/%40cssnr%2Fvitepress-swiper?logo=npm)](https://bundlephobia.com/package/@davidingplus/vitepress-swiper)
 [![Deployments NPM](https://img.shields.io/github/deployments/cssnr/vitepress-swiper/npm?logo=github&label=release)](https://github.com/cssnr/vitepress-swiper/deployments/npm)
 [![Deployments Pages](https://img.shields.io/github/deployments/cssnr/vitepress-swiper/docs?logo=github&label=docs)](https://github.com/cssnr/vitepress-swiper/deployments/docs)
 [![WF Release](https://img.shields.io/github/actions/workflow/status/cssnr/vitepress-swiper/release.yaml?logo=cachet&label=release)](https://github.com/cssnr/vitepress-swiper/actions/workflows/release.yaml)
@@ -47,12 +47,12 @@ There are 2 ways to install this plugin based on preference.
 
 ### As a Dependency
 
-NPM Package: https://www.npmjs.com/package/@cssnr/vitepress-swiper
+NPM Package: https://www.npmjs.com/package/@davidingplus/vitepress-swiper
 
 Install directly into your VitePress with:
 
 ```shell
-npm i @cssnr/vitepress-swiper
+npm i @davidingplus/vitepress-swiper
 ```
 
 Then import it in your `.vitepress/theme/index.js`:
@@ -60,8 +60,8 @@ Then import it in your `.vitepress/theme/index.js`:
 ```javascript
 import DefaultTheme from 'vitepress/theme'
 
-import VPSwiper from '@cssnr/vitepress-swiper' // add this line
-import '@cssnr/vitepress-swiper/style.css' // add this line
+import VPSwiper from '@davidingplus/vitepress-swiper' // add this line
+import '@davidingplus/vitepress-swiper/style.css' // add this line
 
 export default {
   ...DefaultTheme,
@@ -283,7 +283,7 @@ If you are experiencing an issue/bug or getting unexpected results:
 
 All contributions are welcome including [bug reports](https://github.com/cssnr/vitepress-swiper/issues), [feature requests](https://github.com/cssnr/vitepress-swiper/discussions/categories/feature-requests), or pull requests.
 
-For instructions on creating a PR for the [Package](https://www.npmjs.com/package/@cssnr/vitepress-swiper) or [Documentation](https://vitepress-swiper.cssnr.com/),
+For instructions on creating a PR for the [Package](https://www.npmjs.com/package/@davidingplus/vitepress-swiper) or [Documentation](https://vitepress-swiper.cssnr.com/),
 see the [CONTRIBUTING.md](#contributing-ov-file).
 
 Please consider making a donation to support the development of this project and additional open source projects.

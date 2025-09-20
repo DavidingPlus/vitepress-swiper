@@ -6,8 +6,8 @@ import './custom.css'
 import 'virtual:group-icons.css'
 
 // noinspection NpmUsedModulesInstalled
-import VPSwiper from '@cssnr/vitepress-swiper'
-import '@cssnr/vitepress-swiper/style.css'
+import VPSwiper from '@davidingplus/vitepress-swiper'
+import '@davidingplus/vitepress-swiper/style.css'
 
 import ExampleLinks from './components/ExampleLinks.vue'
 

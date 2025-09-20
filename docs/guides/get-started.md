@@ -22,19 +22,19 @@ Install directly to your VitePress with the following command.
 ::: code-group
 
 ```shell [npm]
-npm i @cssnr/vitepress-swiper
+npm i @davidingplus/vitepress-swiper
 ```
 
 ```shell [pnpm]
-pnpm i @cssnr/vitepress-swiper
+pnpm i @davidingplus/vitepress-swiper
 ```
 
 ```shell [yarn]
-yarn add @cssnr/vitepress-swiper
+yarn add @davidingplus/vitepress-swiper
 ```
 
 ```shell [bun]
-bun i @cssnr/vitepress-swiper
+bun i @davidingplus/vitepress-swiper
 ```
 
 :::
@@ -50,8 +50,8 @@ _If you don't have a [.vitepress/theme/index.js](https://vitepress.dev/guide/cus
 ```javascript [.vitepress/theme/index.js]
 import DefaultTheme, { VPBadge } from 'vitepress/theme' // [!code highlight]
 
-import VPSwiper from '@cssnr/vitepress-swiper' // [!code ++]
-import '@cssnr/vitepress-swiper/style.css' // [!code ++]
+import VPSwiper from '@davidingplus/vitepress-swiper' // [!code ++]
+import '@davidingplus/vitepress-swiper/style.css' // [!code ++]
 
 export default {
   ...DefaultTheme,

@@ -13,8 +13,8 @@ const settings = {
   image: '/images/logo.png',
   image32: '/images/logo32.png',
   color: '#0064FC',
-  source_repo: 'https://github.com/cssnr/vitepress-swiper',
-  npm_link: 'https://www.npmjs.com/package/@cssnr/vitepress-swiper',
+  source_repo: 'https://github.com/DavidingPlus/vitepress-swiper',
+  npm_link: 'https://www.npmjs.com/package/@davidingplus/vitepress-swiper',
 }
 
 // https://vitepress.dev/reference/site-config
@@ -90,8 +90,7 @@ export default defineConfig({
         items: [
           { text: 'Source Code on GitHub', link: settings.source_repo },
           { text: 'Package on NPM', link: settings.npm_link },
-          { text: 'Developer Site', link: 'https://cssnr.github.io/' },
-          { text: 'Contribute', link: 'https://ko-fi.com/cssnr' },
+          { text: 'Developer Site', link: 'https://davidingplus.cn/' },
         ],
       },
     ],
@@ -99,13 +98,11 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: settings.source_repo },
       { icon: 'npm', link: settings.npm_link },
-      { icon: 'discord', link: 'https://discord.gg/wXy6m2X8wY' },
-      { icon: 'kofi', link: 'https://ko-fi.com/cssnr' },
       {
         icon: {
           svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: none;" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>',
         },
-        link: 'https://cssnr.github.io/',
+        link: 'https://davidingplus.cn/',
       },
     ],
 

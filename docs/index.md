@@ -38,10 +38,10 @@ features:
     link: /support
   - title: NPM Package
     details: View Package on NPM
-    link: https://www.npmjs.com/package/@cssnr/vitepress-swiper
+    link: https://www.npmjs.com/package/@davidingplus/vitepress-swiper
   - title: GitHub Repository
     details: View the Source on GitHub
-    link: https://github.com/cssnr/vitepress-swiper
+    link: https://github.com/DavidingPlus/vitepress-swiper
 ---
 
 <div class="badges">

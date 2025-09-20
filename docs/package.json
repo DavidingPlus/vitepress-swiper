@@ -11,6 +11,6 @@
     "dependencies": {
         "@cssnr/vitepress-plugin-contributors": "^0.0.3",
         "@cssnr/vitepress-plugin-copybutton": "^0.0.2",
-        "@cssnr/vitepress-swiper": "workspace:*"
+        "@davidingplus/vitepress-swiper": "workspace:*"
     }
 }

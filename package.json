@@ -1,5 +1,5 @@
 {
-  "name": "@cssnr/vitepress-swiper",
+  "name": "@davidingplus/vitepress-swiper",
   "version": "0.0.1",
   "publishConfig": {
     "access": "public"
